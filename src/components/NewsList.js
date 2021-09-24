@@ -41,7 +41,7 @@ const NewsList = ({ category }) => {
 
                 setArticles(response.data.articles);
 
-                console.log(response.data.articles);
+                //console.log(response.data.articles);
             } catch (e) {
                 console.log(e);
             }
